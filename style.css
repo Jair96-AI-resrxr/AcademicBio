@@ -70,14 +70,7 @@ p {
 }
 
 /* Name */
-.sidebar h1 {
-    margin-bottom: 0.3rem;
-    color: #1a365d;
-    font-size: 3rem;
-    line-height: 1.2;
-}
-
-.sidebar name {
+.name {
     color: #2d3748;
     font-size: 1.30rem;
     margin-bottom: 0.25rem;    
