@@ -75,7 +75,7 @@ p {
     font-size: 1.30rem;
     margin-bottom: 0.25rem;    
     text-align: left;  
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .profile {
