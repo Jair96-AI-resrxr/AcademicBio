@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Personal academic website of Jair Tovar">
+    <title>Jair Tovar | PGR in Computer Science</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ======LEFT SIDEBAR======= -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <!-- Profile picture -->
+            <div class="profile-photo">
+                <img src="foto3x4.jpg"
+                     alt="Portrait">
+            </div>
+            <!-- Name ------------------>
+            <h1>Jair Tovar</h1>
+            <!-- Position -------------->
+            <p class="position">
+                PGR in Computer Science
+                Cohort 03 AI CDT in Decision Making for Complex Systems
+            </p>
+            <!-- Personal information -->
+            <div class="contact-info">
+                <p>
+                    📍 Manchester, UK
+                </p>
+                <p>
+                    💼 The University of Manchester
+                </p>
+                <p>
+                    ✉️
+                    <a href="mailto:jair.tovartuiran@posgrad.manchester.ac.uk">
+                        your.email@manchester.ac.uk
+                    </a>
+                </p>
+                <p>
+                    🎓
+                    <a href="https://scholar.google.com/citations?hl=es&authuser=1&user=oRv6EMcAAAAJ"
+                       target="_blank"
+                       rel="noopener">
+                        Google Scholar
+                    </a>
+                </p>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="sidebar-nav">
+                <a href="#about">About</a>
+                <a href="#thesis">Master's Thesis</a>
+                <a href="#background">
+                    Background & Courses
+                </a>
+                <a href="#simulations">
+                    Transient Simulations
+                </a>
+                <a href="#teaching">
+                    Teaching Experience
+                </a>
+            </nav>
+        </div>
+    </aside>
+
+    <!-- ======MAIN CONTENT======= -->
+    <main class="main-content">
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <p class="eyebrow">
+                Academic Profile
+            </p>
+            <h2>About</h2>
+            <p class="intro">
+                Welcome to my personal academic website.
+            </p>
+            <p>
+                   I am a first-year postgraduate researcher in AI and part of the third cohort 
+                   in the Centre for Doctoral Training in Decision Making for Complex Systems, 
+                   Department of Computer Science, University of Manchester. 
+                   My research will integrate reinforcement learning with CFD workflows, 
+                   where intelligent agents refine meshing strategies and solver configurations 
+                   based on numerical performance and best practices extracted from the literature. 
+                   This is expected to transform traditional computational simulation methods by 
+                   introducing artificial intelligence into the configuration of simulations. 
+                   This project will allow me to validate my research with Cummins against cases, 
+                   including isolating flows, microchannel flows, and problems with deforming meshes.
+            </p>          
+        </section>
+
+        <!-- MASTER'S THESIS -->
+        <section id="thesis" class="section">
+            <p class="eyebrow">
+                Research
+            </p>
+            <h2>Master's Thesis</h2>
+            <div class="content-card">
+                <h3>
+                    Meshing Methodology for Numerical Simulations of Turbulent Flows at Low Computational Cost
+                </h3>
+
+                <p>
+                    <strong>Overview:</strong>
+                    I earned a master's degree at the National University of Colombia, where I focused on computational meshing strategies 
+                    for a compressible supersonic jet from a nozzle. The objective was to test resolution effects and mesh refinement regions 
+                    to improve the numerical accuracy of computational simulations based on experimental data and LES simulations carried out 
+                    by other researchers. By developing optimized low-cost meshes under the UDNS framework, I found that first- 
+                    and second-order turbulent flow characteristics could be predicted without explicit turbulence models. 
+                </p>
+
+                <p>
+                    Parameters such as mesh size, axial and radial refinement, and the computational domain size played a critical role 
+                    in accurately predicting key turbulence statistics, including energy dissipation, turbulence intensity, 
+                    and Reynolds stresses. The academic contribution of this work lies in demonstrating how mesh topology, 
+                    resolution strategy, and domain design influence the predictive capability of CFD simulations. 
+                    These findings provide insight into mesh sensitivity and highlight effective refinement strategies, 
+                    rather than uniform refinement.
+                </p>
+
+                <p>
+                    I used OpenFOAM to construct structured computational meshes based on meshing parameters. 
+                    I used ParaView as my primary post-processing tool to analyse turbulence fields and velocity gradient isocontours. 
+                    Moreover, I developed Python scripts to export numerical data, wrote Fortran programs to perform statistical analyses, 
+                    and used Gnuplot to plot velocity curves and turbulent intensities. 
+                    These experiences were crucial in enhancing my computer programming skills in a Linux environment, 
+                    from setting up simulations and automating statistical calculations to analysing large datasets and presenting results.
+                </p>
+                <!-- Thesis link -->
+                <a class="button"
+                   href="https://repositorio.unal.edu.co/handle/unal/81966"
+                   target="_blank"
+                   rel="noopener">
+                    Read my thesis →
+                </a>
+            </div>
+        </section>
+
+        <!-- BACKGROUND -->
+        <section id="background" class="section section-alt">
+            <p class="eyebrow">Education</p>
+            <h2>Background & Previous Courses</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span class="date">2019 – 2022</span>
+                    <h3>Master's Degree in Mechanical Engineering</h3>
+                    <p>
+                        National University of Colombia
+                    </p>
+                    <p>
+                        My academic background in mechanical engineering, with a strong emphasis on computational fluid mechanics, 
+                        provided me with a solid foundation in numerical methods, computer programming, and algorithm implementation 
+                        for solving applied engineering problems. 
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="date">Selected Coursework</span>
+                    <h3>Previous Courses</h3>
+                    <ul>
+                        <li><h4>Finite Element Applications </h4></li>
+                            <p>
+                                I studied the Galerkin method for solving elliptic partial differential equations,
+                                particularly in elasticity. I became proficient in using Lagrange polynomials to define basis functions and
+                                in applying Gauss-Legendre quadrature for numerical integration in triangular and quadrilateral elements 
+                                of both first and second order. 
+                            </p>
+                        <li><h4>Modelling of Thermal Systems </h4></li>
+                            <p>
+                                I tackled steady-state and transient heat transfer problems using second-order finite difference schemes 
+                                and time integration methods for linear and nonlinear partial differential equations.
+                            </p>
+                        <li><h4>Computational Fluid Dynamics </h4></li>
+                            <p>
+                                My knowledge of the finite volume method gained through the CFD course has equipped me to simulate complex
+                                flow phenomena. Using OpenFOAM, I successfully analyzed first- and second-order statistics of turbulent flows, 
+                                generated flow visualisations in ParaView, and developed custom post-processing tools in Fortran and Python.
+                            </p>
+                        <li><h4>Engineering Optimization with Bio-Inspired Techniques </h4></li>
+                            <p>
+                                I studied multi-objective optimization using the Bacterial Chemotaxis Algorithm, which models chemotaxis behavior mathematically.
+                            </p>
+                        <li><h4>Combustion </h4></li>
+                            <p>
+                                This course exposed me to chemical equilibrium for calculating molar fractions and adiabatic flame temperature 
+                                using iterative methods such as Newton-Raphson, and numerical solutions of chemical kinetics models to compute 
+                                the temporal evolution of all species in a reaction.
+                            </p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SIMULATIONS -->
+        <section id="simulations"
+                 class="section">
+            <p class="eyebrow">
+                Computational Work
+            </p>
+            <h2>Transient Simulations</h2> 
+            <p>
+                This section presents examples of transient simulations
+                related to my research and previous coursework.
+            </p>
+            <div class="video-grid">
+                <!-- VIDEO 1 -->
+                <div class="video-card">
+                    <video controls
+                           preload="metadata">
+                        <source src="videos/simulation1.mp4"
+                                type="video/mp4">
+                        Your browser does not support
+                        HTML5 video.
+                    </video>
+                    <h3>Transient Simulation 1</h3>
+                    <p>
+                        Short description of the simulation,
+                        physical problem, and numerical method.
+                    </p>
+                </div>
+
+                <!-- VIDEO 2 -->
+                <div class="video-card">
+                    <video controls
+                           preload="metadata">
+                        <source src="videos/simulation2.mp4"
+                                type="video/mp4">
+                        Your browser does not support
+                        HTML5 video.
+                    </video>
+                    <h3>Transient Simulation 2</h3>
+                    <p>
+                        Short description of the simulation,
+                        physical problem, and numerical method.
+                    </p>
+                </div>
+              
+              <!-- VIDEO 3 -->
+                <div class="video-card">
+                    <video controls
+                           preload="metadata">
+                        <source src="videos/simulation3.mp4"
+                                type="video/mp4">
+                        Your browser does not support
+                        HTML5 video.
+                    </video>
+                    <h3>Transient Simulation 3</h3>
+                    <p>
+                        Short description of the simulation,
+                        physical problem, and numerical method.
+                    </p>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Teaching -->
+        <section id="teaching" class="section">
+            <p class="eyebrow">Teaching</p>
+            <h2>Teaching Experience</h2>
+            <div class="content-card">
+                <div class="teaching-item">
+                    <h3>Mathematical Modelling</h3>
+                    <p class="date">2021 – 2022 · National University of Colombia</p>
+                    <p>
+                        Teaching assistant for undergraduate Mechanical Engineering students in numerical methods and finite difference applications for fluid mechanics, mass transfer, and heat transfer. 
+                        I was responsible for developing quizzes and workshops to reinforce problem-solving skills.  
+                    </p>
+                </div>               
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Jair Tovar</p>
+    </footer>
+</body>
+</html>    
