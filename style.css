@@ -72,9 +72,9 @@ p {
 /* Name */
 .name {
     color: #2d3748;
-    font-size: 11.30rem;
+    font-size: 1.30rem;
     margin-bottom: 0.25rem;    
-    text-align: left;  
+    text-align: right;  
     /* font-weight: bold; */
 }
 
