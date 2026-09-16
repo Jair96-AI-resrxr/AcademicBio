@@ -77,18 +77,18 @@ p {
     line-height: 1.2;
 }
 
-.name {
-    margin-bottom: 0.5rem;
+.sidebar name {
     color: #2d3748;
-    font-size: 1.25rem;
+    font-size: 1.30rem;
+    margin-bottom: 0.25rem;    
     text-align: left;  
     font-weight: bold;
 }
 
 .profile {
     color: rgb(100,100,100);
-    font-size: 1.0rem;
-    margin-bottom: 5.0rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
     text-align: left;   
 }
 
