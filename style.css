@@ -246,6 +246,19 @@ h3 {
     text-align: justify;
 }
 
+/* ===GITHUB==========*/
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
 /* ========================================
    CONTENT CARDS
    ======================================== */
