@@ -1,18 +1,13 @@
 ```css
 /* =====GENERAL=======*/
 
-* {
-    box-sizing: border-box;
+* {box-sizing: border-box;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
-html {
-    scroll-behavior: smooth;
-}
+html {scroll-behavior: smooth;}
 
-body {
-    font-family:
+body {font-family:
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
@@ -21,10 +16,9 @@ body {
         Arial,
         sans-serif;
 
-    color: #2d3748;
+    color: #2d3748;e
     background: #ffffff;
-    line-height: 1.7;
-}
+    line-height: 1.7;}
 
 a {
     color: inherit;
@@ -44,7 +38,6 @@ p {
     height: 100vh;
     background: #eaf4fb;
     overflow-y: auto;
-    margin-bottom: 0.01rem;
 }
 
 .sidebar-content {
@@ -110,9 +103,7 @@ p {
     text-decoration: underline;
 }
 
-/* ========================================
-   SIDEBAR NAVIGATION
-   ======================================== */
+/* =====SIDEBAR NAVIGATION======== */
 
 .sidebar-nav {
     width: 100%;
@@ -153,11 +144,7 @@ p {
     background: #f7f9fc;
 }
 
-
-
-/* ========================================
-   TYPOGRAPHY
-   ======================================== */
+/* ======TYPOGRAPHY=========== */
 
 .eyebrow {
     margin-bottom: 0.5rem;
@@ -213,25 +200,16 @@ h3 {
     border-radius: 10px;
 }
 
-/* ========================================
-   THESIS BUTTON
-   ======================================== */
+/* ========THESIS BUTTON========= */
 
 .button {
     display: inline-block;
-
     margin-top: 1rem;
-
     padding: 0.7rem 1.2rem;
-
     background: #2b6cb0;
-
     color: #ffffff;
-
     border-radius: 6px;
-
     font-size: 0.9rem;
-
     font-weight: 600;
 }
 
@@ -241,21 +219,16 @@ h3 {
 
 
 
-/* ========================================
-   EDUCATION TIMELINE
-   ======================================== */
+/* ======EDUCATION TIMELINE======= */
 
 .timeline {
     max-width: 800px;
-
     border-left: 2px solid #e2e8f0;
-
     padding-left: 2rem;
 }
 
 .timeline-item {
     position: relative;
-
     margin-bottom: 3rem;
 }
 
@@ -265,29 +238,20 @@ h3 {
 
 .timeline-item::before {
     content: "";
-
     position: absolute;
-
     width: 10px;
     height: 10px;
-
     left: -2.4rem;
     top: 0.6rem;
-
     background: #ffffff;
-
     border: 2px solid #718096;
-
     border-radius: 50%;
 }
 
 .date {
     margin-bottom: 0.4rem;
-
     color: #718096;
-
     font-size: 0.85rem;
-
     font-weight: 600;
 }
 
@@ -363,13 +327,9 @@ footer {
     }
 
     .sidebar-content {padding: 2.5rem 1.5rem;}
-
     .sidebar-nav {align-items: center; text-align: center;}
-
     .main-content {margin-left: 0; width: 100%;}
-
     .section {padding: 4rem 1.5rem;}
-
     .profile-photo {width: 150px; height: 150px;}
 }
 ```
