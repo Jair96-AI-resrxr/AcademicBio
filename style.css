@@ -217,7 +217,36 @@ h3 {
     background: #1a4f85;
 }
 
+/* RESEARCH INTERESTS + VIDEO */
 
+.research-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.research-text {
+    max-width: 600px;
+}
+
+.research-video {
+    width: 100%;
+}
+
+.research-video video {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    background: #000000;
+}
+
+.video-caption {
+    margin-top: 0.8rem;
+    color: #718096;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
 
 /* ======EDUCATION TIMELINE======= */
 
