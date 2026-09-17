@@ -71,14 +71,16 @@ p {
 
 /* Name */
 .name {
+    width: 100%;
     color: #2d3748;
     font-size: 1.30rem;
     margin-bottom: 0.25rem;    
-    text-align: right;  
-    /* font-weight: bold; */
+    text-align: left;  
+    font-weight: bold; 
 }
 
 .profile {
+    width: 100%;
     color: rgb(100,100,100);
     font-size: 1.1rem;
     margin-bottom: 0.1rem;
